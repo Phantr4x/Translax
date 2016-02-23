@@ -15,7 +15,6 @@ export default {
 </script>
 
 <style lang="sass">
-$theme-color: #02a8fe;
 .translax-input-box {
   width: 100%;
 }

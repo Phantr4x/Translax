@@ -28,9 +28,11 @@ export default {
 </script>
 
 <style lang="sass">
+@import 'assets/lib/css-wipe.css';
 body {
   margin: 0;
   padding: 0;
+  background: #f4f4f4;
   font-family: Helvetica, sans-serif;
 }
 </style>
