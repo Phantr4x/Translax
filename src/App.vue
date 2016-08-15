@@ -1,7 +1,8 @@
-<template lang="jade">
-  div#translax
-    trans-input(:query.sync='query')
-    trans-output(:query='query')
+<template>
+  <div id="translax">
+    <trans-input :query.sync='query'></trans-input>
+    <trans-output :query='query'></trans-output>
+  </div>
 </template>
 
 <script>
